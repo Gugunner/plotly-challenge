@@ -1,7 +1,7 @@
 let dataset = [];
 
 const init = async() => {
-    dataset = await d3.json("../../data/samples.json").then(data => data);
+    dataset = await d3.json("samples.json").then(data => data);
 };
 
 const initOptions = (ids) => {
